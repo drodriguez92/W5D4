@@ -1,1 +1,19 @@
 /* PHASE 3: Layout */
+.content {
+  background: black;
+  width: 1000px;
+}
+
+.content-sidebar {
+  background: grey;
+  width: 100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.content-main {
+  background: red;
+  width: 400px;
+  min-height: 200px;
+  padding: 20px;
+}
