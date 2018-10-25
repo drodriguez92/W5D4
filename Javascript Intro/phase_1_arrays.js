@@ -10,7 +10,8 @@ Array.prototype.my_uniq = function() {
   return result;                                // Returns given array unique'd.
 };
 
-Array.prototype.my_twoSum = function() {
+
+Array.prototype.my_twosum = function() {
   var pairs = [];                                       // Set up pairs array.
 
   for (var i = 0; i < this.length; i += 1) {            // Create outer loop and initialize i.
@@ -21,5 +22,18 @@ Array.prototype.my_twoSum = function() {
     }
   }
 
-  return pairs;                                         // Returns all possible pairs of nums that sum to 0. 
+  return pairs;                                         // Returns all possible pairs of nums that sum to 0.
+};
+
+
+Array.prototype.my_transpose = function() {
+  var transposed = [];
+
+  for (var i = 0; i < this.length; i += 1) {
+    for (var j = 0; j < this.length; j += 1) {
+      columns[j][i] = this[i][j];
+    }
+  }
+
+  return transposed;
 };
