@@ -1,5 +1,6 @@
 /* PHASE 3: Layout */
 .content {
+  display: flex;
   background: black;
   width: 1000px;
 }
@@ -9,6 +10,7 @@
   width: 100px;
   min-height: 200px;
   padding: 20px;
+  border-right: 1px solid blue;
 }
 
 .content-main {
